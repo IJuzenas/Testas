@@ -10,7 +10,7 @@ public class Masyvas {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Įveskite skaiciu nuo 1 iki 7");
         int i = scanner.nextInt();
-        String pasirinktasElementas = dienos[i];
+        String pasirinktasElementas = dienos[i-1];
         System.out.println("Pasirinkta diena: " + pasirinktasElementas);
     }
 }
