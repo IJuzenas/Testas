@@ -9,5 +9,6 @@ public class Mainas {
         automobilis.spausdinti();
         dviratis.spausdinti();
         sunkvezimis.spausdinti();
+
     }
 }
